@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="#home" class="logo">Hajara <span>.</span></a>
+            <div class="links" id="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#blog">Images</a>
+                
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content">
+            <h3>Baking Is Relaxing</h3>
+            <h1>start my day with <br>a cake</h1>
+            <button class="btn">Watch</button>
+        </div>
+    </div>
+    <!-- Header Section End -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+
+            </div>
+            <div class="about-content">
+                <h1>Baking Can Be A Rather Inexpensive Hobby</h1>
+                
+                <p>Unlike some hobbies, you can definitely bake on a budget. You don’t need to buy expensive, fancy gadgets or shop for extravagant, rare ingredients. In fact, most of the time, baking uses common, handy equipment that usually already resides in kitchen drawers.</p>
+                <button class="btn" style="color: black;">About </button>
+
+            </div>
+        </div>
+    </section>
+    <!-- About Section End-->
+
+    <!-- image Section -->
+    <section class="blog" id="blog">
+        <h1 class="heading">My <span>Images</span></h1>
+        <p class="heading-description">These are some cake pics made by me..</p>
+        <div class="container">
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post1.jpg" alt="">
+                    
+                </div>
+                <div class="blog-content">
+                    
+                    <h1>TChocolate truffle</h1>
+                   
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post2.jpg" alt="">
+                   
+                </div>
+                <div class="blog-content">
+                    
+                    <h1>Chocolate Truffle</h1>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post3.jpg" alt="">
+                    
+                </div>
+                <div class="blog-content">
+                    <h1>Chocolate Ganache</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End-->
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
